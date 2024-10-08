@@ -12,6 +12,7 @@ header {
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    z-index: 2;
     height: 60px;
 }
 
@@ -56,7 +57,7 @@ main {
 
 .img {
     width: 400px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
 }
 
 .prezzo-1 {
@@ -104,11 +105,31 @@ footer {
 
 .like {
     background-color:#ffffff;
-    width: 20px;
-    height: 20px;
+    font-size: 40px;
+    width: 40px;
     border-style: none;
     position: relative;
-    top: -550px;
-    left: 95%;
-    
+    bottom: 80%; 
+    left: 90%;   
+}
+
+.img-container {
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .hover {
+    opacity: 1;
+}
+
+.img-container:hover .img {
+    opacity: 0;
 }
