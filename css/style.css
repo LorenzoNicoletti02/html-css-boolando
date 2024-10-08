@@ -39,3 +39,18 @@ a {
 .icona {
     width: 20px;
 }
+
+/* main {
+    padding: 50px 200px;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 200px;
+}
+
+.img {
+    width: 400px;
+}
