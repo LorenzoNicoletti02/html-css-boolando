@@ -5,9 +5,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.categorie {
-    text-decoration: none;
+header {
+    background-color: #ff6200;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.categorie {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
 }
 
 a {
@@ -15,11 +27,15 @@ a {
     color: #ffffff;
 }
 
-.background-header {
-    background-color: #ff6200;
+.logo {
+    width: 120px;
 }
 
-.logo {
+.icone {
     display: flex;
-    justify-content: center;
+    gap: 10px;
+}
+
+.icona {
+    width: 20px;
 }
