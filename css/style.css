@@ -113,6 +113,10 @@ footer {
     left: 90%;   
 }
 
+.like:hover {
+    color: #ff0000;
+}
+
 .img-container {
     position: relative;
 }
